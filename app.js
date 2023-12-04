@@ -1,4 +1,4 @@
-const API_KEY = "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"
+const API_KEY = "YOUR-API-KEY"
 const OPENAI_COMPLETION_ENDPOINT = 'https://api.openai.com/v1/chat/completions';
 
 async function fetchRecommendations(preference = "how to eat less") {
