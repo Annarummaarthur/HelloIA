@@ -1,0 +1,104 @@
+
+* { 
+    font-family: 'Open Sans', sans-serif;
+  
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+  }
+  
+  body {
+    padding: 0;
+    color: #fff;
+    background-color: #343541;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 33px;
+    text-align: center;
+    color: white;
+    padding: 70px 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  #input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #preference-input {
+    flex: 1;
+    max-width: 50%;
+    padding: 12px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  #recommendation-button {
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #recommendation-button:hover {
+    background-color: #45a049;
+  }
+
+  
+  
+  /* #recommendations {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    justify-content: space-between;
+    height: 30vh;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  } */
+  #recommendations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 30vh;
+    width: 50%;
+    text-align: center;
+    padding: 20px; /* Add padding to the contents inside the div */
+    margin: 0 auto; /* Center the div horizontally */
+  }
+  
+  #recommendations > * {
+    width: 100%; /* Set each item to take up the full width of the container */
+    margin-bottom: 10px; /* Add some spacing between each item inside the div */
+    padding: 10px; /* Add padding to each item inside the div */
+    border: 1px solid #ccc; /* Add a border to each item for a nice visual effect */
+    border-radius: 5px; /* Round the corners of each item */
+    background-color: #24a3da; /* Add a light background color to each item */
+    word-wrap: break-word; /* Ensure text wraps inside each item */
+    text-align: left; /* Left-justify the text inside each item */
+  }
+  
+  
+  .recommendation-item {
+    justify-content: left;
+    list-style: none;
+    position: relative;
+    padding: 3px 0 2px 0px;
+    margin-bottom: 30px;
+  }
+  
+  
+  
+  
